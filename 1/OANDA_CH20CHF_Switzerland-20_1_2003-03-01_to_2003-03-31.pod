@@ -1,0 +1,83 @@
+{
+  "pod_version": "4.0",
+  "instrument": "CH20_CHF",
+  "granularity": "M1",
+  "chunk_start": "2003-03-01",
+  "chunk_end": "2003-03-31",
+  "parquet_file": "OANDA_CH20CHF_Switzerland-20_1_2003-03-01_to_2003-03-31.parquet",
+  "data_file": "OANDA_CH20CHF_Switzerland-20_1_2003-03-01_to_2003-03-31.parquet",
+  "row_count": 3519,
+  "first_candle": {
+    "time": 1048233600,
+    "Time": "2003-03-21T08:00:00.000000000Z",
+    "open": 4307.0,
+    "high": 4363.9,
+    "low": 4307.0,
+    "close": 4329.9,
+    "volume": 35
+  },
+  "last_candle": {
+    "time": 1049123940,
+    "Time": "2003-03-31T15:19:00.000000000Z",
+    "open": 3998.8,
+    "high": 4004.7,
+    "low": 3993.8,
+    "close": 3997.8,
+    "volume": 43
+  },
+  "csv_file": "OANDA_CH20CHF_Switzerland-20_1_2003-03-01_to_2003-03-31.parquet",
+  "csv_row_count": 3519,
+  "csv_first_candle": {
+    "time": 1048233600,
+    "Time": "2003-03-21T08:00:00.000000000Z",
+    "open": 4307.0,
+    "high": 4363.9,
+    "low": 4307.0,
+    "close": 4329.9,
+    "volume": 35
+  },
+  "csv_last_candle": {
+    "time": 1049123940,
+    "Time": "2003-03-31T15:19:00.000000000Z",
+    "open": 3998.8,
+    "high": 4004.7,
+    "low": 3993.8,
+    "close": 3997.8,
+    "volume": 43
+  },
+  "status": "VERIFIED",
+  "verified_at": "2026-10-16T00:09:40.000000000Z",
+  "generated_at": "2026-10-16T00:09:40.000000000Z",
+  "download_request": {
+    "total_api_blocks_in_run": 2480,
+    "chunk_api_blocks": 4,
+    "chunk_permanent_errors": 0,
+    "permanent_error_details": [],
+    "all_block_outcomes": [
+      {
+        "from": "2003-03-21T08:00:00Z",
+        "to": "2003-03-24T19:20:00Z",
+        "code": 200,
+        "msg": "OK"
+      },
+      {
+        "from": "2003-03-24T19:20:00Z",
+        "to": "2003-03-28T06:40:00Z",
+        "code": 200,
+        "msg": "OK"
+      },
+      {
+        "from": "2003-03-28T06:40:00Z",
+        "to": "2003-03-31T18:00:00Z",
+        "code": 200,
+        "msg": "OK"
+      },
+      {
+        "from": "2003-03-31T18:00:00Z",
+        "to": "2003-04-04T05:20:00Z",
+        "code": 200,
+        "msg": "OK"
+      }
+    ]
+  }
+}
