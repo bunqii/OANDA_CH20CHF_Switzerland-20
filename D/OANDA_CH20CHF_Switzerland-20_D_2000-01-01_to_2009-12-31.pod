@@ -1,0 +1,65 @@
+{
+  "pod_version": "4.0",
+  "instrument": "CH20_CHF",
+  "granularity": "D",
+  "chunk_start": "2000-01-01",
+  "chunk_end": "2009-12-31",
+  "parquet_file": "OANDA_CH20CHF_Switzerland-20_D_2000-01-01_to_2009-12-31.parquet",
+  "data_file": "OANDA_CH20CHF_Switzerland-20_D_2000-01-01_to_2009-12-31.parquet",
+  "row_count": 1705,
+  "first_candle": {
+    "time": 1048456800,
+    "Time": "2003-03-23T22:00:00.000000000Z",
+    "open": 4314.3,
+    "high": 4326.3,
+    "low": 4122.8,
+    "close": 4135.7,
+    "volume": 4230
+  },
+  "last_candle": {
+    "time": 1262124000,
+    "Time": "2009-12-29T22:00:00.000000000Z",
+    "open": 6573.3,
+    "high": 6581.3,
+    "low": 6501.8,
+    "close": 6516.8,
+    "volume": 1969
+  },
+  "csv_file": "OANDA_CH20CHF_Switzerland-20_D_2000-01-01_to_2009-12-31.parquet",
+  "csv_row_count": 1705,
+  "csv_first_candle": {
+    "time": 1048456800,
+    "Time": "2003-03-23T22:00:00.000000000Z",
+    "open": 4314.3,
+    "high": 4326.3,
+    "low": 4122.8,
+    "close": 4135.7,
+    "volume": 4230
+  },
+  "csv_last_candle": {
+    "time": 1262124000,
+    "Time": "2009-12-29T22:00:00.000000000Z",
+    "open": 6573.3,
+    "high": 6581.3,
+    "low": 6501.8,
+    "close": 6516.8,
+    "volume": 1969
+  },
+  "status": "VERIFIED",
+  "verified_at": "2026-10-16T00:11:24.000000000Z",
+  "generated_at": "2026-10-16T00:11:24.000000000Z",
+  "download_request": {
+    "total_api_blocks_in_run": 2,
+    "chunk_api_blocks": 1,
+    "chunk_permanent_errors": 0,
+    "permanent_error_details": [],
+    "all_block_outcomes": [
+      {
+        "from": "2003-03-23T22:00:00Z",
+        "to": "2016-11-29T22:00:00Z",
+        "code": 200,
+        "msg": "OK"
+      }
+    ]
+  }
+}
